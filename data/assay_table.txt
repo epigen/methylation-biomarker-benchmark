@@ -1,0 +1,28 @@
+Order	Dataset_description	Assay_type	Filename	Dataset_name	Assay_group	Pretty_label	Snp_detected	Design_attempted	Design_attempted_incl_reg11	Amount_of_DNA
+1	Amplicon bisulfite sequencing (MiSeq)	absolute	results_main_study_AmpliconBS_1.txt	AmpliconBS_1	AmpliconBS	AmpliconBS 1	0	25	26	1ug
+2	Amplicon bisulfite sequencing (HiSeq)	absolute	results_main_study_AmpliconBS_2.txt	AmpliconBS_2	AmpliconBS	AmpliconBS 2	0	15	16	1ug
+3	Amplicon bisulfite sequencing (AccessArray & MiSeq)	absolute	results_main_study_AmpliconBS_3.txt	AmpliconBS_3	AmpliconBS	AmpliconBS 3	0	37	38	1ug
+4	Amplicon bisulfite sequencing (MiSeq)	absolute	results_main_study_AmpliconBS_4.txt	AmpliconBS_4	AmpliconBS	AmpliconBS 4	1	47	48	2ug
+5	RainDrop bisulfite sequencing	absolute	results_main_study_EnrichmentBS_1.txt	EnrichmentBS_1	EnrichmentBS	EnrichmentBS 1	0	47	48	3ug
+6	Bisulfite sequencing with padlock probes	absolute	results_main_study_EnrichmentBS_2.txt	EnrichmentBS_2	EnrichmentBS	EnrichmentBS 2	0	47	48	1ug
+7	EpiTYPER assay	absolute	results_main_study_EpiTyper_1.txt	EpiTyper_1	EpiTyper	EpiTyper 1	0	25	26	1ug
+8	EpiTYPER assay	absolute	results_main_study_EpiTyper_2.txt	EpiTyper_2	EpiTyper	EpiTyper 2	0	47	48	1ug
+9	EpiTYPER assay	absolute	results_main_study_EpiTyper_3.txt	EpiTyper_3	EpiTyper	EpiTyper 3	1	47	48	1ug
+10	HPLC-ESI/MS quantification of total 5mC content	global	results_global_methylation_all_assays.txt	HPLC_MS	HPLC	HPLC/MS	NA	NA	NA	1ug
+11	Immunoquantification of total 5mC content	global	results_global_methylation_all_assays.txt	Immunoquant	Immuno	Immunoquant	NA	NA	NA	1ug
+12	Illumina Infinium 450k assay	absolute	results_main_study_Infinium.txt	Infinium	Infinium	Infinium	NA	47	48	1ug
+13	Bisulifte pyrosequencing	absolute	results_main_study_Pyroseq_1.txt	Pyroseq_1	Pyroseq	Pyroseq 1	0	31	32	1ug
+14	Bisulifte pyrosequencing, replicate	absolute	results_main_study_Pyroseq_1_replicate.txt	Pyroseq_1_replicate	Pyroseq	Pyroseq 1 (replicate)	0	31	32	1ug
+15	Bisulifte pyrosequencing	absolute	results_main_study_Pyroseq_2.txt	Pyroseq_2	Pyroseq	Pyroseq 2	1	15	16	1ug
+16	Bisulifte pyrosequencing	absolute	results_main_study_Pyroseq_3.txt	Pyroseq_3	Pyroseq	Pyroseq 3	0	20	21	1ug
+17	Bisulifte pyrosequencing	absolute	results_main_study_Pyroseq_4.txt	Pyroseq_4	Pyroseq	Pyroseq 4	1	16	17	2ug
+18	Bisulifte pyrosequencing	absolute	results_main_study_Pyroseq_5.txt	Pyroseq_5	Pyroseq	Pyroseq 5	1	34	35	1ug
+19	Bisulfite pyrosequencing of AluYb8 repetitive DNA	global	results_global_methylation_all_assays.txt	Pyroseq_AluYb8	PyroseqGlobal	Pyroseq AluYb8	NA	NA	NA	1ug
+20	Bisulfite pyrosequencing of D4Z4 repetitive DNA	global	results_main_study_global_methylation.txt	Pyroseq_D4Z4	PyroseqGlobal	Pyroseq D4Z4	NA	NA	NA	1ug
+21	Bisulfite pyrosequencing of LINE1 repetitive DNA	global	results_main_study_global_methylation.txt	Pyroseq_LINE1	PyroseqGlobal	Pyroseq LINE1	NA	NA	NA	1ug
+22	Bisulfite pyrosequencing of NBL2 repetitive DNA	global	results_main_study_global_methylation.txt	Pyroseq_NBL2	PyroseqGlobal	Pyroseq NBL2	NA	NA	NA	1ug
+23	MethyLight	relative	results_main_study_MethyLight.txt	MethyLight	Relative	MethyLight	1	15	16	1ug
+24	Methylation sensitive high resolution melting	relative	results_main_study_MS_HRM.txt	MS_HRM	Relative	MS-HRM	1	15	16	1ug
+25	Methylation specific melting curve analysis	relative	results_main_study_MS_MCA.txt	MS_MCA	Relative	MS-MCA	1	15	16	1ug
+26	Quantitative methylation-specific PCR (pre-amplified)	relative	results_main_study_qMSP_preamp.txt	qMSP_preamp	Relative	qMSP (preamp)	0	15	16	1ug
+27	Quantitative methylation-specific PCR (standard)	relative	results_main_study_qMSP_standard.txt	qMSP_standard	Relative	qMSP (standard)	0	15	16	1ug

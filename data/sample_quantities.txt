@@ -1,0 +1,253 @@
+Dataset	Sample	Measurement taken	Measured concentration	Measured volume	Actual stock volume	Measured mass	Measured volume per sample	Volume proportion of input	Fixed by (input)	Fixed to value (input)
+AmpliconBS_1	1T	Qubit dsBR	37.2	20	20	744		1	ALL/PROPORTIONAL	
+AmpliconBS_1	1N	Qubit dsBR	42.4	20	20	848		1	ALL/PROPORTIONAL	
+AmpliconBS_1	2T	Qubit dsBR	51.4	17	20	873.8		1	ALL/PROPORTIONAL	
+AmpliconBS_1	2N	Qubit dsBR	41.7	20	20	834		1	ALL/PROPORTIONAL	
+AmpliconBS_1	3T	Qubit dsBR	58.5	15	20	877.5		1	ALL/PROPORTIONAL	
+AmpliconBS_1	3N	Qubit dsBR	46	20	20	920		1	ALL/PROPORTIONAL	
+AmpliconBS_1	4T	Qubit dsBR	86.9	17	20	1477.3		1	ALL/PROPORTIONAL	
+AmpliconBS_1	4N	Qubit dsBR	31.8	20	20	636		1	ALL/PROPORTIONAL	
+AmpliconBS_1	5T	Qubit dsBR	46.2	20	20	924		1	ALL/PROPORTIONAL	
+AmpliconBS_1	5N	Qubit dsBR	49.7	20	20	994		1	ALL/PROPORTIONAL	
+AmpliconBS_1	6T	Qubit dsBR	46.6	20	20	932		1	ALL/PROPORTIONAL	
+AmpliconBS_1	6N	Qubit dsBR	55.1	17	20	936.7		1	ALL/PROPORTIONAL	
+EpiTyper_1	1T	Qubit dsBR	37.2	20	20	744		1	ALL/PROPORTIONAL	
+EpiTyper_1	1N	Qubit dsBR	42.4	20	20	848		1	ALL/PROPORTIONAL	
+EpiTyper_1	2T	Qubit dsBR	51.4	17	20	873.8		1	ALL/PROPORTIONAL	
+EpiTyper_1	2N	Qubit dsBR	41.7	20	20	834		1	ALL/PROPORTIONAL	
+EpiTyper_1	3T	Qubit dsBR	58.5	15	20	877.5		1	ALL/PROPORTIONAL	
+EpiTyper_1	3N	Qubit dsBR	46	20	20	920		1	ALL/PROPORTIONAL	
+EpiTyper_1	4T	Qubit dsBR	86.9	17	20	1477.3		1	ALL/PROPORTIONAL	
+EpiTyper_1	4N	Qubit dsBR	31.8	20	20	636		1	ALL/PROPORTIONAL	
+EpiTyper_1	5T	Qubit dsBR	46.2	20	20	924		1	ALL/PROPORTIONAL	
+EpiTyper_1	5N	Qubit dsBR	49.7	20	20	994		1	ALL/PROPORTIONAL	
+EpiTyper_1	6T	Qubit dsBR	46.6	20	20	932		1	ALL/PROPORTIONAL	
+EpiTyper_1	6N	Qubit dsBR	55.1	17	20	936.7		1	ALL/PROPORTIONAL	
+AmpliconBS_2	1N	Picogreen (mean of 2)	56.1675		20			1	ALL/PROPORTIONAL	
+AmpliconBS_2	1T	Picogreen (mean of 2)	17.875		20			1	ALL/PROPORTIONAL	
+AmpliconBS_2	2N	Picogreen (mean of 2)	32.6565		20			1	ALL/PROPORTIONAL	
+AmpliconBS_2	2T	Picogreen (mean of 2)	51.7075		20			1	ALL/PROPORTIONAL	
+AmpliconBS_2	3N	Picogreen (mean of 2)	62.0825		20			1	ALL/PROPORTIONAL	
+AmpliconBS_2	3T	Picogreen (mean of 2)	47.376		20			1	ALL/PROPORTIONAL	
+AmpliconBS_2	4N	Picogreen (mean of 2)	25.042		20			1	ALL/PROPORTIONAL	
+AmpliconBS_2	4T	Picogreen (mean of 2)	125.4705		20			1	ALL/PROPORTIONAL	
+AmpliconBS_2	5N	Picogreen (mean of 2)	28.653		20			1	ALL/PROPORTIONAL	
+AmpliconBS_2	5T	Picogreen (mean of 2)	38.3215		20			1	ALL/PROPORTIONAL	
+AmpliconBS_2	6N	Picogreen (mean of 2)	79.5295		20			1	ALL/PROPORTIONAL	
+AmpliconBS_2	6T	Picogreen (mean of 2)	43.2925		20			1	ALL/PROPORTIONAL	
+AmpliconBS 3	1N	TapeStation	29.346		20			1	ALL/PROPORTIONAL	
+AmpliconBS 3	1T	TapeStation	20.033		20			1	ALL/PROPORTIONAL	
+AmpliconBS 3	2N	TapeStation	28.274		20			1	ALL/PROPORTIONAL	
+AmpliconBS 3	2T	TapeStation	27.068		20			1	ALL/PROPORTIONAL	
+AmpliconBS 3	3N	TapeStation	51.188		20			1	ALL/PROPORTIONAL	
+AmpliconBS 3	3T	TapeStation	52.729		20			1	ALL/PROPORTIONAL	
+AmpliconBS 3	4N	TapeStation	36.649		20			1	ALL/PROPORTIONAL	
+AmpliconBS 3	4T	TapeStation	66.531		20			1	ALL/PROPORTIONAL	
+AmpliconBS 3	5N	TapeStation	51.724		20			1	ALL/PROPORTIONAL	
+AmpliconBS 3	5T	TapeStation	50.116		20			1	ALL/PROPORTIONAL	
+AmpliconBS 3	6N	TapeStation	51.188		20			1	ALL/PROPORTIONAL	
+AmpliconBS 3	6T	TapeStation	52.997		20			1	ALL/PROPORTIONAL	
+AmpliconBS_4	1N	Qubit dsBR	53		20		5.6603773585	0.2830188679	mass	300
+AmpliconBS_4	1T	Qubit dsBR	44.1		20		6.8027210884	0.3401360544	mass	300
+AmpliconBS_4	2N	Qubit dsBR	46.7		20		6.4239828694	0.3211991435	mass	300
+AmpliconBS_4	2T	Qubit dsBR	57		20		5.2631578947	0.2631578947	mass	300
+AmpliconBS_4	3N	Qubit dsBR	57		20		5.2631578947	0.2631578947	mass	300
+AmpliconBS_4	3T	Qubit dsBR	66.2		20		4.5317220544	0.2265861027	mass	300
+AmpliconBS_4	4N	Qubit dsBR	42.3		20		7.0921985816	0.3546099291	mass	300
+AmpliconBS_4	4T	Qubit dsBR	100		20		3	0.15	mass	300
+AmpliconBS_4	5N	Qubit dsBR	54		20		5.5555555556	0.2777777778	mass	300
+AmpliconBS_4	5T	Qubit dsBR	59		20		5.0847457627	0.2542372881	mass	300
+AmpliconBS_4	6N	Qubit dsBR	81.9		20		3.663003663	0.1831501832	mass	300
+AmpliconBS_4	6T	Qubit dsBR	52		20		5.7692307692	0.2884615385	mass	300
+EnrichmentBS_1	1N	Qubit dsBR	43.6		40		50	1	ALL/PROPORTIONAL	
+EnrichmentBS_1	1T	Qubit dsBR	41.4		40		50	1	ALL/PROPORTIONAL	
+EnrichmentBS_1	2N	Qubit dsBR	45.4		40		50	1	ALL/PROPORTIONAL	
+EnrichmentBS_1	2T	Qubit dsBR	56.4		40		50	1	ALL/PROPORTIONAL	
+EnrichmentBS_1	3N	Qubit dsBR	50		40		50	1	ALL/PROPORTIONAL	
+EnrichmentBS_1	3T	Qubit dsBR	62.8		40		50	1	ALL/PROPORTIONAL	
+EnrichmentBS_1	4N	Qubit dsBR	35.8		40		50	1	ALL/PROPORTIONAL	
+EnrichmentBS_1	4T	Qubit dsBR	88.2		40		50	1	ALL/PROPORTIONAL	
+EnrichmentBS_1	5N	Qubit dsBR	52.6		40		50	1	ALL/PROPORTIONAL	
+EnrichmentBS_1	5T	Qubit dsBR	48.6		40		50	1	ALL/PROPORTIONAL	
+EnrichmentBS_1	6N	Qubit dsBR	58.4		40		50	1	ALL/PROPORTIONAL	
+EnrichmentBS_1	6T	Qubit dsBR	49.2		40		50	1	ALL/PROPORTIONAL	
+EnrichmentBS_2	1N	Qubit dsDNA HS	39.4285714286	18.88	20	744.4114285714	12.6811594203	0.6716715795	mass	500
+EnrichmentBS_2	1T	Qubit dsDNA HS	37.7142857143	19.06	20	718.8342857143	13.2575757576	0.6955706064	mass	500
+EnrichmentBS_2	2N	Qubit dsDNA HS	34.8571428571	19.34	20	674.1371428571	14.3442622951	0.7416888467	mass	500
+EnrichmentBS_2	2T	Qubit dsDNA HS	50.5714285714	19.39	20	980.58	9.8870056497	0.5099023027	mass	500
+EnrichmentBS_2	3N	Qubit dsDNA HS	44.2857142857	19.29	20	854.2714285714	11.2903225806	0.5852940685	mass	500
+EnrichmentBS_2	3T	Qubit dsDNA HS	56	18.43	20	1032.08	8.9285714286	0.4844585691	mass	500
+EnrichmentBS_2	4N	Qubit dsDNA HS	29.7142857143	20.33	20	604.0914285714	16.8269230769	0.8276892807	mass	500
+EnrichmentBS_2	4T	Qubit dsDNA HS	73.7142857143	18.78	20	1384.3542857143	6.7829457364	0.3611792192	mass	500
+EnrichmentBS_2	5N	Qubit dsDNA HS	33.4285714286	27.46	20	917.9485714286	14.9572649573	0.5446928244	mass	500
+EnrichmentBS_2	5T	Qubit dsDNA HS	40.2857142857	20.41	20	822.2314285714	12.4113475177	0.6081012993	mass	500
+EnrichmentBS_2	6N	Qubit dsDNA HS	52.8571428571	19.46	20	1028.6	9.4594594595	0.4860976084	mass	500
+EnrichmentBS_2	6T	Qubit dsDNA HS	44.8571428571	19.65	20	881.4428571429	11.1464968153	0.5672517463	mass	500
+EpiTyper_2	1N	Nanodrop (mean of 2)	156.2	23	20	3592.6	6.4020486556	0.2783499415	mass	1000
+EpiTyper_2	1T	Nanodrop (mean of 2)	131.45	23	20	3023.35	7.6074553062	0.3307589264	mass	1000
+EpiTyper_2	2N	Nanodrop (mean of 2)	255.45	23	20	5875.35	3.9146604032	0.1702026262	mass	1000
+EpiTyper_2	2T	Nanodrop (mean of 2)	166.6	23	20	3831.8	6.0024009604	0.2609739548	mass	1000
+EpiTyper_2	3N	Nanodrop (mean of 2)	190.35	23	20	4378.05	5.2534804308	0.2284121926	mass	1000
+EpiTyper_2	3T	Nanodrop (mean of 2)	181.4	23	20	4172.2	5.5126791621	0.2396817027	mass	1000
+EpiTyper_2	4N	Nanodrop (mean of 2)	182.35	23	20	4194.05	5.4839594187	0.2384330182	mass	1000
+EpiTyper_2	4T	Nanodrop (mean of 2)	340.5	23	20	7831.5	2.9368575624	0.1276894592	mass	1000
+EpiTyper_2	5N	Nanodrop (mean of 2)	201.95	23	20	4644.85	4.951720723	0.2152922053	mass	1000
+EpiTyper_2	5T	Nanodrop (mean of 2)	218.75	23	20	5031.25	4.5714285714	0.198757764	mass	1000
+EpiTyper_2	6N	Nanodrop (mean of 2)	182.6	23	20	4199.8	5.4764512596	0.2381065765	mass	1000
+EpiTyper_2	6T	Nanodrop (mean of 2)	191.2	23	20	4397.6	5.230125523	0.2273967619	mass	1000
+EpiTyper_3	1T	Nanodrop (preferred over Qubit)	126.5		20		3.95256917	0.1976284585	mass	500
+EpiTyper_3	1N	Nanodrop (preferred over Qubit)	151		20		3.3112582781	0.1655629139	mass	500
+EpiTyper_3	2T	Nanodrop (preferred over Qubit)	160.1		20		3.1230480949	0.1561524047	mass	500
+EpiTyper_3	2N	Nanodrop (preferred over Qubit)	253.1		20		1.9755037535	0.0987751877	mass	500
+EpiTyper_3	3T	Nanodrop (preferred over Qubit)	182.6		20		2.7382256298	0.1369112815	mass	500
+EpiTyper_3	3N	Nanodrop (preferred over Qubit)	167.9		20		2.9779630733	0.1488981537	mass	500
+EpiTyper_3	4T	Nanodrop (preferred over Qubit)	338		20		1.4792899408	0.073964497	mass	500
+EpiTyper_3	4N	Nanodrop (preferred over Qubit)	160.7		20		3.1113876789	0.1555693839	mass	500
+EpiTyper_3	5T	Nanodrop (preferred over Qubit)	194.2		20		2.5746652935	0.1287332647	mass	500
+EpiTyper_3	5N	Nanodrop (preferred over Qubit)	200.7		20		2.4912805182	0.1245640259	mass	500
+EpiTyper_3	6T	Nanodrop (preferred over Qubit)	182.6		20		2.7382256298	0.1369112815	mass	500
+EpiTyper_3	6N	Nanodrop (preferred over Qubit)	178.4		20		2.802690583	0.1401345291	mass	500
+HPLC	1T				20					
+HPLC	1N				20					
+HPLC	2T				20					
+HPLC	2N				20					
+HPLC	3T				20					
+HPLC	3N				20					
+HPLC	4T				20					
+HPLC	4N				20					
+HPLC	5T				20					
+HPLC	5N				20					
+HPLC	6T				20					
+HPLC	6N				20					
+Immunoquant	1N	Qubit dsBR	39.4166666667	19.9915433404	20	788		1	ALL/PROPORTIONAL	
+Immunoquant	1T	Qubit dsBR	65.85	20	20	1317		1	ALL/PROPORTIONAL	
+Immunoquant	2N	Qubit dsBR	35.6833333333	20.0093414292	20	714		1	ALL/PROPORTIONAL	
+Immunoquant	2T	Qubit dsBR	46.2	20	20	924		1	ALL/PROPORTIONAL	
+Immunoquant	3N	Qubit dsBR	42.4333333333	20.0078554595	20	849		1	ALL/PROPORTIONAL	
+Immunoquant	3T	Qubit dsBR	44.9666666667	19.9925871016	20	899		1	ALL/PROPORTIONAL	
+Immunoquant	4N	Qubit dsBR	37.6333333333	20.0088573959	20	753		1	ALL/PROPORTIONAL	
+Immunoquant	4T	Qubit dsBR	64.1833333333	20.0051934562	20	1284		1	ALL/PROPORTIONAL	
+Immunoquant	5N	Qubit dsBR	41.1166666667	19.9918929874	20	822		1	ALL/PROPORTIONAL	
+Immunoquant	5T	Qubit dsBR	49.4666666667	19.9932614555	20	989		1	ALL/PROPORTIONAL	
+Immunoquant	6N	Qubit dsBR	61.5	20	20	1230		1	ALL/PROPORTIONAL	
+Immunoquant	6T	Qubit dsBR	47.1666666667	19.9929328622	20	943		1	ALL/PROPORTIONAL	
+MethyLight	1N				20			1	ALL/PROPORTIONAL (assumed 1ug)	
+MethyLight	1T				20			1	ALL/PROPORTIONAL (assumed 1ug)	
+MethyLight	2N				20			1	ALL/PROPORTIONAL (assumed 1ug)	
+MethyLight	2T				20			1	ALL/PROPORTIONAL (assumed 1ug)	
+MethyLight	3N				20			1	ALL/PROPORTIONAL (assumed 1ug)	
+MethyLight	3T				20			1	ALL/PROPORTIONAL (assumed 1ug)	
+MethyLight	4N				20			1	ALL/PROPORTIONAL (assumed 1ug)	
+MethyLight	4T				20			1	ALL/PROPORTIONAL (assumed 1ug)	
+MethyLight	5N				20			1	ALL/PROPORTIONAL (assumed 1ug)	
+MethyLight	5T				20			1	ALL/PROPORTIONAL (assumed 1ug)	
+MethyLight	6N				20			1	ALL/PROPORTIONAL (assumed 1ug)	
+MethyLight	6T				20			1	ALL/PROPORTIONAL (assumed 1ug)	
+MS_HRM	1N	Quant-IT PicoGreen	24.95		20	997.85		0.5472580409	mass (fixed to 500??; use value provided)	546.0814360771
+MS_HRM	1T	Quant-IT PicoGreen	22.23		20	889.19		0.6140104803	mass (fixed to 500??; use value provided)	545.9719789842
+MS_HRM	2N	Quant-IT PicoGreen	24.94		20	997.63		0.6013595479	mass (fixed to 500??; use value provided)	599.9343257443
+MS_HRM	2T	Quant-IT PicoGreen	37.47		20	1498.84		0.3143119529	mass (fixed to 500??; use value provided)	471.1033274956
+MS_HRM	3N	Quant-IT PicoGreen	27.66		20	1106.29		0.5486261104	mass (fixed to 500??; use value provided)	606.9395796848
+MS_HRM	3T	Quant-IT PicoGreen	33.73		20	1349.18		0.5810430771	mass (fixed to 500??; use value provided)	783.9316987741
+MS_HRM	4N	Quant-IT PicoGreen	21.17		20	846.87		0.5811034625	mass (fixed to 500??; use value provided)	492.119089317
+MS_HRM	4T	Quant-IT PicoGreen	53.09		20	2123.7		0.3742889335	mass (fixed to 500??; use value provided)	794.877408056
+MS_HRM	5N	Quant-IT PicoGreen	28.01		20	1120.4		0.6431239218	mass (fixed to 500??; use value provided)	720.5560420315
+MS_HRM	5T	Quant-IT PicoGreen	19.86		20	794.41		1.3912063874	mass (fixed to 500??; use value provided)	1105.1882661997
+MS_HRM	6N	Quant-IT PicoGreen	36.92		20	1476.8		0.3013627705	mass (fixed to 500??; use value provided)	445.0525394046
+MS_HRM	6T	Quant-IT PicoGreen	25.12		20	1004.9		0.5469042323	mass (fixed to 500??; use value provided)	549.5840630473
+MS_MCA	1T	Quant-iT PicoGreen	33.91		20		2.9	0.145	fixed	100
+MS_MCA	1N	Quant-iT PicoGreen	42.72		20		2.3	0.115	fixed	100
+MS_MCA	2T	Quant-iT PicoGreen	54.79		20		1.8	0.09	fixed	100
+MS_MCA	2N	Quant-iT PicoGreen	38.41		20		2.6	0.13	fixed	100
+MS_MCA	3T	Quant-iT PicoGreen	59.87		20		1.7	0.085	fixed	100
+MS_MCA	3N	Quant-iT PicoGreen	48.25		20		2.1	0.105	fixed	100
+MS_MCA	4T	Quant-iT PicoGreen	60.28		20		1.7	0.085	fixed	100
+MS_MCA	4N	Quant-iT PicoGreen	28.25		20		3.5	0.175	fixed	100
+MS_MCA	5T	Quant-iT PicoGreen	52.67		20		1.9	0.095	fixed	100
+MS_MCA	5N	Quant-iT PicoGreen	50.41		20		2	0.1	fixed	100
+MS_MCA	6T	Quant-iT PicoGreen	44.49		20		2.2	0.11	fixed	100
+MS_MCA	6N	Quant-iT PicoGreen	55.83		20		1.8	0.09	fixed	100
+Pyroseq_1,Pyroseq_1_replicate	1N 	Picogreen (mean of 2)	42.5		20		17.6470588235	0.8823529412	mass	750
+Pyroseq_1,Pyroseq_1_replicate	1T 	Picogreen (mean of 2)	40		20		18.75	0.9375	mass	750
+Pyroseq_1,Pyroseq_1_replicate	2N 	Picogreen (mean of 2)	33		20		20	1	mass	660
+Pyroseq_1,Pyroseq_1_replicate	2T 	Picogreen (mean of 2)	52		20		14.4230769231	0.7211538462	mass	750
+Pyroseq_1,Pyroseq_1_replicate	3N 	Picogreen (mean of 2)	44.5		20		16.8539325843	0.8426966292	mass	750
+Pyroseq_1,Pyroseq_1_replicate	3T 	Picogreen (mean of 2)	54.5		20		13.7614678899	0.6880733945	mass	750
+Pyroseq_1,Pyroseq_1_replicate	4N 	Picogreen (mean of 2)	35		20		20	1	mass	700
+Pyroseq_1,Pyroseq_1_replicate	4T 	Picogreen (mean of 2)	73		20		10.2739726027	0.5136986301	mass	750
+Pyroseq_1,Pyroseq_1_replicate	5N 	Picogreen (mean of 2)	45.5		20		16.4835164835	0.8241758242	mass	750
+Pyroseq_1,Pyroseq_1_replicate	5T 	Picogreen (mean of 2)	44.5		20		16.8539325843	0.8426966292	mass	750
+Pyroseq_1,Pyroseq_1_replicate	6N 	Picogreen (mean of 2)	54		20		13.8888888889	0.6944444444	mass	750
+Pyroseq_1,Pyroseq_1_replicate	6T 	Picogreen (mean of 2)	40.5		20		18.5185185185	0.9259259259	mass	750
+Pyroseq_2	1T	Qubit (after Nanodrop)	40		20		5	0.25	mass	200
+Pyroseq_2	1N	Qubit (after Nanodrop)	46.8		20		4.2735042735	0.2136752137	mass	200
+Pyroseq_2	2T	Qubit (after Nanodrop)	62.4		20		3.2051282051	0.1602564103	mass	200
+Pyroseq_2	2N	Qubit (after Nanodrop)	41.7		20		4.7961630695	0.2398081535	mass	200
+Pyroseq_2	3T	Qubit (after Nanodrop)	73.8		20		2.7100271003	0.135501355	mass	200
+Pyroseq_2	3N	Qubit (after Nanodrop)	58.5		20		3.4188034188	0.1709401709	mass	200
+Pyroseq_2	4T	Qubit (after Nanodrop)	72.4		20		2.7624309392	0.138121547	mass	200
+Pyroseq_2	4N	Qubit (after Nanodrop)	42.8		20		4.6728971963	0.2336448598	mass	200
+Pyroseq_2	5T	Qubit (after Nanodrop)	54		20		3.7037037037	0.1851851852	mass	200
+Pyroseq_2	5N	Qubit (after Nanodrop)	59.4		20		3.367003367	0.1683501684	mass	200
+Pyroseq_2	6T	Qubit (after Nanodrop)	51		20		3.9215686275	0.1960784314	mass	200
+Pyroseq_2	6N	Qubit (after Nanodrop)	72.6		20		2.7548209366	0.1377410468	mass*	110.4
+Pyroseq_3	1N	Nanodrop	14.8		20			1	ALL/PROPORTIONAL	
+Pyroseq_3	1T	Nanodrop	11.4		20			1	ALL/PROPORTIONAL	
+Pyroseq_3	2N	Nanodrop	11.7		20			1	ALL/PROPORTIONAL	
+Pyroseq_3	2T	Nanodrop	16.9		20			1	ALL/PROPORTIONAL	
+Pyroseq_3	3N	Nanodrop	13.6		20			1	ALL/PROPORTIONAL	
+Pyroseq_3	3T	Nanodrop	17.3		20			1	ALL/PROPORTIONAL	
+Pyroseq_3	4N	Nanodrop	6.1		20			1	ALL/PROPORTIONAL	
+Pyroseq_3	4T	Nanodrop	24		20			1	ALL/PROPORTIONAL	
+Pyroseq_3	5N	Nanodrop	11.8		20			1	ALL/PROPORTIONAL	
+Pyroseq_3	5T	Nanodrop	15.6		20			1	ALL/PROPORTIONAL	
+Pyroseq_3	6N	Nanodrop	18.7		20			1	ALL/PROPORTIONAL	
+Pyroseq_3	6T	Nanodrop	15		20			1	ALL/PROPORTIONAL	
+Pyroseq_4	1T	Qubit	48.2	25	20	1000	20.7468879668	0.8298755187	mass (theoretically 1000)	1000
+Pyroseq_4	1N	Qubit	57	25	20	1000	17.5438596491	0.701754386	mass (theoretically 1000)	1000
+Pyroseq_4	2T	Qubit	80.6	25	20	1000	12.4069478908	0.4962779156	mass (theoretically 1000)	1000
+Pyroseq_4	2N	Qubit	51	25	20	1000	19.6078431373	0.7843137255	mass (theoretically 1000)	1000
+Pyroseq_4	3T	Qubit	57.6	25	20	1000	17.3611111111	0.6944444444	mass (theoretically 1000)	1000
+Pyroseq_4	3N	Qubit	56.2	25	20	1000	17.793594306	0.7117437722	mass (theoretically 1000)	1000
+Pyroseq_4	4T	Qubit	114	25	20	1000	8.7719298246	0.350877193	mass (theoretically 1000)	1000
+Pyroseq_4	4N	Qubit	37.8	34.59	40		34.59	0.6918	mass (theoretically 1000)	998.2
+Pyroseq_4	5T	Qubit	56	25	20	1000	17.8571428571	0.7142857143	mass (theoretically 1000)	1000
+Pyroseq_4	5N	Qubit	61	25	20	1000	16.393442623	0.6557377049	mass (theoretically 1000)	1000
+Pyroseq_4	6T	Qubit	54.6	25	20	1000	18.315018315	0.7326007326	mass (theoretically 1000)	1000
+Pyroseq_4	6N	Qubit	46.4	25	20	1000	21.5517241379	0.8620689655	mass (theoretically 1000)	1000
+Pyroseq_5	1T	Quant-IT	37.82	14.4	20	544.608		0.576	ALL/PROPORTIONAL	
+Pyroseq_5	1N	Quant-IT	33.05	13.4	20	442.87		0.536	ALL/PROPORTIONAL	
+Pyroseq_5	2T	Quant-IT	40.02	14.8	20	592.296		0.592	ALL/PROPORTIONAL	
+Pyroseq_5	2N	Quant-IT	29.31	12.5	20	366.375		0.5	ALL/PROPORTIONAL	
+Pyroseq_5	3T	Quant-IT	48.24	15.8	20	762.192		0.632	ALL/PROPORTIONAL	
+Pyroseq_5	3N	Quant-IT	36.99	14.2	20	525.258		0.568	ALL/PROPORTIONAL	
+Pyroseq_5	4T	Quant-IT	30.82	12.9	20	397.578		0.516	ALL/PROPORTIONAL	
+Pyroseq_5	4N	Quant-IT	23.8	10.5	20	249.9		0.42	ALL/PROPORTIONAL	
+Pyroseq_5	5T	Quant-IT	35.03	13.9	20	486.917		0.556	ALL/PROPORTIONAL	
+Pyroseq_5	5N	Quant-IT	42.18	15.1	20	636.918		0.604	ALL/PROPORTIONAL	
+Pyroseq_5	6T	Quant-IT	35.95	14	20	503.3		0.56	ALL/PROPORTIONAL	
+Pyroseq_5	6N	Quant-IT	54.72	16.4	20	897.408		0.656	ALL/PROPORTIONAL	
+Pyroseq_AluYb8,Pyroseq_D4Z4,Pyroseq_LINE1,Pyroseq_NBL2	1N	Qubit dsBR	39.4166666667	20	20	788.3333333333		0.6342494715	mass	500
+Pyroseq_AluYb8,Pyroseq_D4Z4,Pyroseq_LINE1,Pyroseq_NBL2	1T	Qubit dsBR	65.85	20	20	1317		0.3796507213	mass	500
+Pyroseq_AluYb8,Pyroseq_D4Z4,Pyroseq_LINE1,Pyroseq_NBL2	2N	Qubit dsBR	35.6833333333	20	20	713.6666666667		0.7006071929	mass	500
+Pyroseq_AluYb8,Pyroseq_D4Z4,Pyroseq_LINE1,Pyroseq_NBL2	2T	Qubit dsBR	46.2	20	20	924		0.5411255411	mass	500
+Pyroseq_AluYb8,Pyroseq_D4Z4,Pyroseq_LINE1,Pyroseq_NBL2	3N	Qubit dsBR	42.4333333333	20	20	848.6666666667		0.5891594658	mass	500
+Pyroseq_AluYb8,Pyroseq_D4Z4,Pyroseq_LINE1,Pyroseq_NBL2	3T	Qubit dsBR	44.9666666667	20	20	899.3333333333		0.5559673832	mass	500
+Pyroseq_AluYb8,Pyroseq_D4Z4,Pyroseq_LINE1,Pyroseq_NBL2	4N	Qubit dsBR	37.6333333333	20	20	752.6666666667		0.6643046944	mass	500
+Pyroseq_AluYb8,Pyroseq_D4Z4,Pyroseq_LINE1,Pyroseq_NBL2	4T	Qubit dsBR	64.1833333333	20	20	1283.6666666667		0.3895092184	mass	500
+Pyroseq_AluYb8,Pyroseq_D4Z4,Pyroseq_LINE1,Pyroseq_NBL2	5N	Qubit dsBR	41.1166666667	20	20	822.3333333333		0.6080259424	mass	500
+Pyroseq_AluYb8,Pyroseq_D4Z4,Pyroseq_LINE1,Pyroseq_NBL2	5T	Qubit dsBR	49.4666666667	20	20	989.3333333333		0.5053908356	mass	500
+Pyroseq_AluYb8,Pyroseq_D4Z4,Pyroseq_LINE1,Pyroseq_NBL2	6N	Qubit dsBR	61.5	20	20	1230		0.406504065	mass	500
+Pyroseq_AluYb8,Pyroseq_D4Z4,Pyroseq_LINE1,Pyroseq_NBL2	6T	Qubit dsBR	47.1666666667	20	20	943.3333333333		0.5300353357	mass	500
+qMSP_preamp,qMSP_standard	1N	Picogreen	81.97	25	20	2049.25		1	ALL/PROPORTIONAL	
+qMSP_preamp,qMSP_standard	1T	Picogreen	6.85	25	20	171.25		1	ALL/PROPORTIONAL	
+qMSP_preamp,qMSP_standard	2N	Picogreen	32.71	25	20	817.75		1	ALL/PROPORTIONAL	
+qMSP_preamp,qMSP_standard	2T	Picogreen	78.59	25	20	1964.75		1	ALL/PROPORTIONAL	
+qMSP_preamp,qMSP_standard	3N	Picogreen	73.84	25	20	1846		1	ALL/PROPORTIONAL	
+qMSP_preamp,qMSP_standard	3T	Picogreen	56.49	25	20	1412.25		1	ALL/PROPORTIONAL	
+qMSP_preamp,qMSP_standard	4N	Picogreen	26.24	25	20	656		1	ALL/PROPORTIONAL	
+qMSP_preamp,qMSP_standard	4T	Picogreen	86.64	25	20	2166		1	ALL/PROPORTIONAL	
+qMSP_preamp,qMSP_standard	5N	Picogreen	6.7	25	20	167.5		1	ALL/PROPORTIONAL	
+qMSP_preamp,qMSP_standard	5T	Picogreen	57.78	25	20	1444.5		1	ALL/PROPORTIONAL	
+qMSP_preamp,qMSP_standard	6N	Picogreen	103.11	25	20	2577.75		1	ALL/PROPORTIONAL	
+qMSP_preamp,qMSP_standard	6T	Picogreen	41.08	25	20	1027		1	ALL/PROPORTIONAL	

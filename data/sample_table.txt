@@ -1,0 +1,33 @@
+Order	Sample_name	Sample_description	Identifier	DNA_extraction_method	Sample_type	Short_identifier
+1	CRC_1_Control	Human colon adjacent tissue	P1N_meth	Phenol-chloroform purification	TumorNormal	1N
+2	CRC_1_Tumor	Human colon primary tumor	P1T_meth	Phenol-chloroform purification	TumorNormal	1T
+3	CRC_2_Control	Human colon adjacent tissue	P2N_meth	Phenol-chloroform purification	TumorNormal	2N
+4	CRC_2_Tumor	Human colon primary tumor	P2T_meth	Phenol-chloroform purification	TumorNormal	2T
+5	CRC_3_Control	Human colon adjacent tissue	P3N_meth	Phenol-chloroform purification	TumorNormal	3N
+6	CRC_3_Tumor	Human colon primary tumor	P3T_meth	Phenol-chloroform purification	TumorNormal	3T
+7	CRC_4_Control	Human colon adjacent tissue	P4N_meth	Phenol-chloroform purification	TumorNormal	4N
+8	CRC_4_Tumor	Human colon primary tumor	P4T_meth	Phenol-chloroform purification	TumorNormal	4T
+9	CRC_5_Control	Human colon adjacent tissue	P5N_meth	Phenol-chloroform purification	TumorNormal	5N
+10	CRC_5_Tumor	Human colon primary tumor	P5T_meth	Phenol-chloroform purification	TumorNormal	5T
+11	CRC_6_Control	Human colon adjacent tissue	P6N_meth	Phenol-chloroform purification	TumorNormal	6N
+12	CRC_6_Tumor	Human colon primary tumor	P6T_meth	Phenol-chloroform purification	TumorNormal	6T
+13	KG1_AzaC	Cancer cell line (KG1) treated with azacytidine to induce demethylation	KG1_T_meth	Column-based purification	DrugControl	KG1 T1
+14	KG1_Control	Cancer cell line (KG1) under normal growth conditions	KG1_K_meth	Column-based purification	DrugControl	KG1 K1
+15	KG1a_AzaC	Cancer cell line (KG1a) treated with azacytidine to induce demethylation	KG1a_T_meth	Column-based purification	DrugControl	KG1a T1
+16	KG1a_Control	Cancer cell line (KG1a) under normal growth conditions	KG1a_K_meth	Column-based purification	DrugControl	KG1a K1
+17	Titration1_1_100	Partially methylated DNA (100%)	IVM_6_meth	Phenol-chloroform purification	Titration1	IVM_6
+18	Titration1_2_75	Partially methylated DNA (75%) combined with unmethylated DNA (25%)	IVM_5_meth	Phenol-chloroform purification	Titration1	IVM_5
+19	Titration1_3_50	Partially methylated DNA (50%) combined with unmethylated DNA (50%)	IVM_4_meth	Phenol-chloroform purification	Titration1	IVM_4
+20	Titration1_4_10	Partially methylated DNA (10%) combined with unmethylated DNA (90%)	IVM_3_meth	Phenol-chloroform purification	Titration1	IVM_3
+21	Titration1_5_1	Partially methylated DNA (1%) combined with unmethylated DNA (99%)	IVM_2_meth	Phenol-chloroform purification	Titration1	IVM_2
+22	Titration1_6_0	Unmethylated DNA (100%)	IVM_1_meth	Phenol-chloroform purification	Titration1	IVM_1
+23	Titration2_1_100	Cancer cell line DNA (100%)	B_33773_meth	Phenol-chloroform purification	Titration2	B33773
+24	Titration2_2_10	Cancer cell line DNA (10%) combined with whole blood DNA (90%)	B_14129_meth	Phenol-chloroform purification	Titration2	B14129
+25	Titration2_3_1	Cancer cell line DNA (1%) combined with whole blood DNA (99%)	B_77007_meth	Phenol-chloroform purification	Titration2	B77007
+26	Titration2_4_01	Cancer cell line DNA (0.1%) combined with whole blood DNA (99.9%)	B_39141_meth	Phenol-chloroform purification	Titration2	B39141
+27	Titration2_5_001	Cancer cell line DNA (0.01%) combined with whole blood DNA (99.99%)	B_83366_meth	Phenol-chloroform purification	Titration2	B83366
+28	Titration2_6_0	Whole blood DNA (100%)	B_96050_meth	Phenol-chloroform purification	Titration2	B96050
+29	Xenograft1_FFPE	Cancer cell line (HCT-116) derived xenograft, FFPE	HCT116P_meth	QIAamp DNA FFPE Tissue Kit	FrozenFFPE	HCT116P
+30	Xenograft1_Frozen	Cancer cell line (HCT-116) derived xenograft, fresh-frozen	HCT116_meth	Phenol-chloroform purification	FrozenFFPE	HCT116
+31	Xenograft2_FFPE	Cancer cell line (HCT-15) derived xenograft, FFPE	HCT15P_meth	QIAamp DNA FFPE Tissue Kit	FrozenFFPE	HCT15P
+32	Xenograft2_Frozen	Cancer cell line (HCT-15 derived xenograft, fresh-frozen	HCT15_meth	Phenol-chloroform purification	FrozenFFPE	HCT15
