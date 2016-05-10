@@ -23,7 +23,7 @@ tmp <- lsaData
 # measurements (but only for the figure):
 tmp <- rbind(tmp,data.frame(
 	"regionName"=c("region_02","region_02","region_02","region_02","region_02","region_02","region_02","region_02","region_02","region_02","region_06","region_06","region_14","region_14","region_15","region_15","region_15","region_15"),
-	"sampleName"=c("KG1a_AzaC","KG1a_Control","Titration1_1_100","Titration1_2_75","Titration1_3_50","Titration1_4_10","Titration2_1_100","Titration2_2_10","Xenograft1_FFPE","Xenograft1_Frozen","CRC_1_Control","CRC_2_Control","Titration1_3_50","Titration1_5_1","Titration2_3_1","Titration2_4_01","Titration2_5_001","Titration2_6_0"),
+	"sampleName"=c("KG1a_AzaC","KG1a_Control","Titration1_1_100","Titration1_2_75","Titration1_3_50","Titration1_4_10","Titration2_1_100","Titration2_2_10","Xenograft1_FFPE","Xenograft1_Frozen","CRC_1_Normal","CRC_2_Normal","Titration1_3_50","Titration1_5_1","Titration2_3_1","Titration2_4_01","Titration2_5_001","Titration2_6_0"),
 	"combinedName"=NA,
 	"methValue"=-1,
 	"labelBySample"=NA,

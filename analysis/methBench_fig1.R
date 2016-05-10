@@ -90,7 +90,7 @@ dev.off()
 
 temp2 <- temp[order(temp$datasetName,temp$regionName,temp$sampleName),]
 cmps <- list(
-	"TumorNormal"=c("Tumor","Control","two.sided"),
+	"TumorNormal"=c("Tumor","Normal","two.sided"),
 	"DrugControl"=c("Control","AzaC","two.sided"),
 	"FrozenFFPE"=c("FFPE","Frozen","two.sided"),
 	"Titration1"=c("1_100","6_0","two.sided"),

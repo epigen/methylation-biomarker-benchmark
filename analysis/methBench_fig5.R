@@ -10,7 +10,7 @@ message("=== FIGURE 5 ===")
 
 
 # define comparisons to be examined:
-cmp <- list("FG"=c(sampleNames[grepl("Tumor",sampleTable$sampleName) & sampleTable$sampleType=="TumorNormal"]),"BG"=c(sampleNames[grepl("Control",sampleTable$sampleName) & sampleTable$sampleType=="TumorNormal"]))
+cmp <- list("FG"=c(sampleNames[grepl("Tumor",sampleTable$sampleName) & sampleTable$sampleType=="TumorNormal"]),"BG"=c(sampleNames[grepl("Normal",sampleTable$sampleName) & sampleTable$sampleType=="TumorNormal"]))
 combos <- numeric()
 for(testIndex1 in 1:(length(cmp$FG)-1)) {
 	for(testIndex2 in (testIndex1+1):length(cmp$FG)) {
