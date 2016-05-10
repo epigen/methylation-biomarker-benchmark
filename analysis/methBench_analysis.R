@@ -17,6 +17,8 @@
 # RColorBrewer_1.1-2
 # ROCR_1.0-7
 # vcd_1.3-2
+# sensitivity_1.11.1
+# pse_0.4.5
 
 # load data, set constants, etc.:
 source("analysis/methBench_prepare.R")
@@ -33,6 +35,9 @@ source("analysis/methBench_suppFigs.R")
 
 # run additional analysis supplementary to the primary benchmark:
 source("analysis/methBench_additions.R")
+
+# run additional sensitivity analysis:
+source("analysis/methBench_sensitivity.R")
 
 
 
