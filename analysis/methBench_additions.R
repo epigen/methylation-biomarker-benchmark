@@ -15,7 +15,7 @@ message("=== ADDITIONAL DATA AND ANALYSES ===")
 
 dClonalBS <- read.table("data/results_validation_ClonalBS.txt", sep="\t", header=TRUE, comment.char="", quote="", check.names=FALSE)
 rownames(dClonalBS) <- dClonalBS$locusIdentifier
-rownames(dClonalBS)[!is.na(regionNameLookup[dClonalBS$locusIdentifier])] <- regionNameLookup[dClonalBS$locusIdentifier]
+rownames(dClonalBS)[!is.na(regionNameLookup[dClonalBS$locusIdentifier])] <- regionNameLookup[dClonalBS$locusIdentifier][!is.na(regionNameLookup[dClonalBS$locusIdentifier])] 
 dClonalBS <- dClonalBS[,grep("Meth",colnames(dClonalBS))]
 colnames(dClonalBS) <- sampleNameLookup[gsub("Meth", "", colnames(dClonalBS), ignore.case=TRUE)]
 selRegions <- intersect(regionNames,rownames(dClonalBS)[rowSums(!is.na(dClonalBS))>0])
@@ -64,10 +64,10 @@ dClonalDev$tn <- gsub("CRC_._","",dClonalDev$variable,perl=TRUE)
 dClonalDev$crc <- substr(dClonalDev$variable,1,5)
 
 # statistics for the supplementary table:
-message("ClonalBS: mean = ", round(mean(unlist(dClonalBS)),3), ", sd = ", round(sd(unlist(dClonalBS)),3), ", min = ", round(min(unlist(dClonalBS)),3), ", max =", round(max(unlist(dClonalBS)),3))
-message("ClonalBS: quantiles (0.1,0.25,0.5,0.75,0.9) = ", paste(round(quantile(unlist(dClonalBS),c(0.1,0.25,0.5,0.75,0.9)),3), collapse=", "))
-message("ClonalBS: deviation - mean abs. = ", round(mean(abs(dClonalDev$deviation)),3), ", median = ", round(median(abs(dClonalDev$deviation)),3), ", directional = ", round(mean(dClonalDev$deviation),3))
-
+message("ClonalBS: mean = ", round(mean(unlist(dClonalBS), na.rm=T),3), ", sd = ", round(sd(unlist(dClonalBS), na.rm=T),3), ", min = ", round(min(unlist(dClonalBS), na.rm=T),3), ", max =", round(max(unlist(dClonalBS), na.rm=T),3))
+message("ClonalBS: quantiles (0.1,0.25,0.5,0.75,0.9) = ", paste(round(quantile(unlist(dClonalBS),c(0.1,0.25,0.5,0.75,0.9), na.rm=T),3), collapse=", "))
+message("ClonalBS: deviation - mean abs. = ", round(mean(abs(dClonalDev$deviation), na.rm=T),3), ", median = ", round(median(abs(dClonalDev$deviation), na.rm=T),3), ", directional = ", round(mean(dClonalDev$deviation, na.rm=T),3))
+ 
 # absolute and directional deviation plots: 
 tmp <- lsaData[ lsaData$sampleName%in%selSamples & lsaData$regionName%in%selRegions & lsaData$datasetName%in%datasetsByType$absolute,c("datasetName","deviationCorridor")]
 tmp$datasetName <- datasetTable[tmp$datasetName,"prettyLabel"]
