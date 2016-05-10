@@ -1,15 +1,15 @@
 Order	Sample_name	Sample_description	Identifier	DNA_extraction_method	Sample_type	Short_identifier
-1	CRC_1_Control	Human colon adjacent tissue	P1N_meth	Phenol-chloroform purification	TumorNormal	1N
+1	CRC_1_Normal	Human colon adjacent tissue	P1N_meth	Phenol-chloroform purification	TumorNormal	1N
 2	CRC_1_Tumor	Human colon primary tumor	P1T_meth	Phenol-chloroform purification	TumorNormal	1T
-3	CRC_2_Control	Human colon adjacent tissue	P2N_meth	Phenol-chloroform purification	TumorNormal	2N
+3	CRC_2_Normal	Human colon adjacent tissue	P2N_meth	Phenol-chloroform purification	TumorNormal	2N
 4	CRC_2_Tumor	Human colon primary tumor	P2T_meth	Phenol-chloroform purification	TumorNormal	2T
-5	CRC_3_Control	Human colon adjacent tissue	P3N_meth	Phenol-chloroform purification	TumorNormal	3N
+5	CRC_3_Normal	Human colon adjacent tissue	P3N_meth	Phenol-chloroform purification	TumorNormal	3N
 6	CRC_3_Tumor	Human colon primary tumor	P3T_meth	Phenol-chloroform purification	TumorNormal	3T
-7	CRC_4_Control	Human colon adjacent tissue	P4N_meth	Phenol-chloroform purification	TumorNormal	4N
+7	CRC_4_Normal	Human colon adjacent tissue	P4N_meth	Phenol-chloroform purification	TumorNormal	4N
 8	CRC_4_Tumor	Human colon primary tumor	P4T_meth	Phenol-chloroform purification	TumorNormal	4T
-9	CRC_5_Control	Human colon adjacent tissue	P5N_meth	Phenol-chloroform purification	TumorNormal	5N
+9	CRC_5_Normal	Human colon adjacent tissue	P5N_meth	Phenol-chloroform purification	TumorNormal	5N
 10	CRC_5_Tumor	Human colon primary tumor	P5T_meth	Phenol-chloroform purification	TumorNormal	5T
-11	CRC_6_Control	Human colon adjacent tissue	P6N_meth	Phenol-chloroform purification	TumorNormal	6N
+11	CRC_6_Normal	Human colon adjacent tissue	P6N_meth	Phenol-chloroform purification	TumorNormal	6N
 12	CRC_6_Tumor	Human colon primary tumor	P6T_meth	Phenol-chloroform purification	TumorNormal	6T
 13	KG1_AzaC	Cancer cell line (KG1) treated with azacytidine to induce demethylation	KG1_T_meth	Column-based purification	DrugControl	KG1 T1
 14	KG1_Control	Cancer cell line (KG1) under normal growth conditions	KG1_K_meth	Column-based purification	DrugControl	KG1 K1
