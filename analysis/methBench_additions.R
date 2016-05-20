@@ -10,7 +10,7 @@ message("=== ADDITIONAL DATA AND ANALYSES ===")
 
 
 ##############################################################################
-############ CLONAL BISULFITE SEQUENCING (Supplementary Figure 7) ############
+############ CLONAL BISULFITE SEQUENCING (Supplementary Figure 8) ############
 ##############################################################################
 
 dClonalBS <- read.table("data/results_validation_ClonalBS.txt", sep="\t", header=TRUE, comment.char="", quote="", check.names=FALSE)
@@ -25,17 +25,19 @@ dOther <- lapply(split(dOther,dOther$variable), function(x) { rownames(x) <- x$r
 dClonalBS <- dClonalBS*100.0
 
 
-### REPLICATES COMPARISON (Supplementary Figure 7.a) ###
+### REPLICATES COMPARISON (Supplementary Figure 8.a) ###
 
-svgPlot("clonal_reps", 3, 3)
+svgPlot("clonal_reps", 6, 6)
 par(mar=c(4,4,1,1)+0.1)
+par(xpd=NA)
 x <- c(dClonalBS["region_07",],dClonalBS["region_08",])
 y <- c(dClonalBS["mandatory_7_b",],dClonalBS["mandatory_8_b",])
-plot(as.numeric(x), as.numeric(y), xlab="ClonalBS 1", ylab="ClonalBS 2", pch=16, col=rgb(0.1,0.1,0.1,0.3), xlim=c(0,100), ylim=c(0,100), bty="l")
+plot(as.numeric(x), as.numeric(y), xlab="ClonalBS 1", ylab="ClonalBS 2", pch=16, col=c(rep(rgb(0.5,0.1,0.1,0.3),ncol(dClonalBS)),rep(rgb(0.1,0.1,0.5,0.3),ncol(dClonalBS))), xlim=c(0,100), ylim=c(0,100), bty="l")
+text(as.numeric(x), as.numeric(y), paste(c(rep("r7",ncol(dClonalBS)),rep("r8",ncol(dClonalBS))),colnames(dClonalBS)))
 legend("topleft", paste0("r = ", round(cor(as.numeric(x), as.numeric(y), use="pairwise", method="pearson"),2)), bty="n")
 dev.off()
 
-### CORRELATION HEATMAP (Supplementary Figure 7.b) ###
+### CORRELATION HEATMAP (Supplementary Figure 8.b) ###
 
 tmpSelRegions <- c("region_07","region_08")
 dCor <- dOther[intersect(names(dOther),datasetsByType$absolute)]
@@ -49,7 +51,7 @@ CairoSVG("results_analysis/plots/clonal_cors_reg78", width=13, height=13, points
 pheatmap(data.matrix(dCor), ,col=colorRampPalette(rev(brewer.pal(5,"Oranges")),bias=0.1,space="Lab")(20*5),breaks=seq(0,1,0.01),border_color="white",cellwidth=22,cellheight=22, cluster_cols=TRUE, cluster_rows=TRUE, treeheight_col=0, number_color="black", display_numbers=TRUE)
 dev.off()
 
-### DEVIATION FROM CORRIDOR (Supplementary Figure 7.c) ###
+### DEVIATION FROM CORRIDOR (Supplementary Figure 8.c) ###
 
 # only proceed with selected regions and samples:
 dClonalBS <- dClonalBS[selRegions, selSamples]
@@ -67,7 +69,7 @@ dClonalDev$crc <- substr(dClonalDev$variable,1,5)
 message("ClonalBS: mean = ", round(mean(unlist(dClonalBS), na.rm=T),3), ", sd = ", round(sd(unlist(dClonalBS), na.rm=T),3), ", min = ", round(min(unlist(dClonalBS), na.rm=T),3), ", max =", round(max(unlist(dClonalBS), na.rm=T),3))
 message("ClonalBS: quantiles (0.1,0.25,0.5,0.75,0.9) = ", paste(round(quantile(unlist(dClonalBS),c(0.1,0.25,0.5,0.75,0.9), na.rm=T),3), collapse=", "))
 message("ClonalBS: deviation - mean abs. = ", round(mean(abs(dClonalDev$deviation), na.rm=T),3), ", median = ", round(median(abs(dClonalDev$deviation), na.rm=T),3), ", directional = ", round(mean(dClonalDev$deviation, na.rm=T),3))
- 
+
 # absolute and directional deviation plots: 
 tmp <- lsaData[ lsaData$sampleName%in%selSamples & lsaData$regionName%in%selRegions & lsaData$datasetName%in%datasetsByType$absolute,c("datasetName","deviationCorridor")]
 tmp$datasetName <- datasetTable[tmp$datasetName,"prettyLabel"]
@@ -78,7 +80,7 @@ svgPlotGG(p, "clonal_box", 9, 19)
 p <- ggplot(aggregate(deviationCorridor~datasetName,allDevData,mean), aes(x=datasetName, y=deviationCorridor, fill=deviationCorridor)) + geom_bar(colour="#333333", stat="identity") + defaultPlotTheme(flipX=FALSE) + xlab(NULL) + ylab("Directional deviation") + coord_flip() + scale_fill_gradient2(low=brewer.pal(3,"BrBG")[3],high=brewer.pal(3,"BrBG")[1],guide=F,space="Lab") + geom_hline(aes(yintercept=0),colour="#333333") + ylim(-5,5)
 svgPlotGG(p, "clonal_box_dir", 6.5, 19)
 
-### SCATTER PLOT PANEL (Supplementary Figure 7.d) ###
+### SCATTER PLOT PANEL (Supplementary Figure 8.d) ###
 
 dScatter <- dcast(rbind(data.frame(melt(cbind("region"=rownames(dClonalBS[selRegions,selSamples]),dClonalBS[selRegions,selSamples])),"L1"="ClonalBS 1"),melt(lapply(dOther, function(x) { cbind("region"=rownames(x[selRegions,selSamples]),x[selRegions,selSamples]) }))), L1~region+variable, value.var="value")
 rownames(dScatter) <- dScatter[,1]
@@ -99,7 +101,7 @@ svgPlotGG(d, "clonal_scatters", 12, 7, units="in")
 
 
 ######################################################################################
-############ LOW-INPUT TITRATION SERIES (Supplementary Figures 10 and 11) ############
+############ LOW-INPUT TITRATION SERIES (Supplementary Figures 11 and 12) ############
 ######################################################################################
 
 dataDir <- "data/"
@@ -180,7 +182,7 @@ dLowInput$corridorUpper <- apply(dLowInput,1,function(x) consensus$upper[x["regi
 dLowInput$corridorDeviation <- ifelse(dLowInput$value>=dLowInput$corridorLower & dLowInput$value<=dLowInput$corridorUpper,0,ifelse(dLowInput$value<dLowInput$corridorLower, dLowInput$value-dLowInput$corridorLower, dLowInput$value-dLowInput$corridorUpper))
 
 
-### DEVIATION FROM CONSENSUS (Supplementary Figures 10.b and 11.b) ###
+### DEVIATION FROM CONSENSUS (Supplementary Figures 11.b and 12.b) ###
 
 yRange <- ceiling(max(c(dLowInput$ownTargetDeviation,dLowInput$corridorDeviation),na.rm=TRUE))
 for(curSeries in unique(dLowInput$series)) {
@@ -188,14 +190,14 @@ for(curSeries in unique(dLowInput$series)) {
 	svgPlotGG(p, paste0("low_input_dev_consensus_",curSeries), 8,24)
 }
 
-### DEVIATION FROM OWN TARGET (Supplementary Figures 10.c and 11.c) ###
+### DEVIATION FROM OWN TARGET (Supplementary Figures 11.c and 12.c) ###
 
 for(curSeries in unique(dLowInput$series)) {
 	p <- ggplot(dLowInput[!is.na(dLowInput$ownTargetDeviation) & dLowInput$series==curSeries,], aes(x=as.numeric(quantity), y=ownTargetDeviation, fill=factor(prettyLabel))) + geom_point() + stat_summary(fun.y = mean, geom = 'ribbon', fun.ymax = max, fun.ymin = min, .alpha = 0.05, alpha = 0.5) + defaultPlotTheme(flipX=TRUE) + xlab("DNA quantity [ng]") + ylab("Deviation from own target value") + scale_fill_manual(values=plotColLookup$prettyLabel, guide=FALSE) + scale_x_continuous(breaks=1:length(levels(dLowInput$quantity)),labels=levels(dLowInput$quantity)) + facet_grid(prettyLabel~., drop=FALSE) + geom_hline(y_intercept=0) + theme(axis.line.x=element_blank()) + ylim(-yRange,yRange)
 	svgPlotGG(p, paste0("low_input_dev_owntarget_",curSeries), 8,24)
 }
 
-### STATUS (Supplementary Figures 10.a and 11.a) ###
+### STATUS (Supplementary Figures 11.a and 12.a) ###
 
 for(curSeries in unique(dLowInput$series)) {
 	p <- ggplot(dLowInputSuccessRate[dLowInputSuccessRate$series==curSeries,], aes(x=quantity, y=successRate)) + geom_bar(stat="identity") + defaultPlotTheme(flipX=TRUE) + xlab("DNA quantity [ng]") + ylab("Success rate (successful / attempted measurements)")  + facet_grid(prettyLabel~., drop=FALSE) + geom_hline(y_intercept=0) + theme(axis.line.x=element_blank())

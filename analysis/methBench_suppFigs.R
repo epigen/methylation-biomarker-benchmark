@@ -9,10 +9,10 @@ message("=== SUPPLEMENTARY FIGURE AND DATA ===")
 
 
 
-##### HEATMAP-LIKE OVERVIEW OF AVAILABLE DATASETS (Fig. S1) #####
+##### HEATMAP-LIKE OVERVIEW OF AVAILABLE DATASETS (Supplementary Figure 1) #####
 
 
-message("Data overview table (Figure S1)...")
+message("Data overview table (Supplementary Figure 1)...")
 
 # calculate an overview of available assays:
 tmp <- lsaData
@@ -66,10 +66,10 @@ svgPlotGG(d, "hm_regions_per_assay_sample", 26, 12)
 
 
 
-### MDS PLOTS (Fig. Sx) ###
+### MDS PLOTS (Supplementary Figure 13) ###
 
 # generate a panel of MDS plots per dataset as a quick overview of the data:
-message("Multi-dimensional scaling plots (Figure Sx)...")
+message("Multi-dimensional scaling plots (Supplementary Figure 13)...")
 
 svgPlot("mds_plots", 12, 10, pointsize=13)
 par(mar=c(3,3,4,1))
@@ -113,9 +113,9 @@ dev.off()
 
 
 
-### FULL PANEL OF BEESWARM PLOTS (Fig. S4) ###
+### FULL PANEL OF BEESWARM PLOTS (Supplementary Figure 3) ###
 
-message("Beeswarm plots panel for all assays (Figure S4.a)...")
+message("Beeswarm plots panel for all assays (Supplementary Figure 3.a)...")
 
 selRegions <- coreRegionNames
 selSamples <- setdiff(sampleNames,sampleNames[grep("Titration",sampleNames)])
@@ -125,7 +125,7 @@ for(curRegion in selRegions) {
 
 # determine which datasets define each consensus corridor:
 
-message("Contribution to consensus heatmap (Figure S4.b)...")
+message("Contribution to consensus heatmap (Supplementary Figure 3.b)...")
 
 #selSamples <- sampleNames
 inConsensus <- aggregate(assayGroup~datasetName+regionName+sampleName,consensusFreq[consensusFreq$sampleName%in%selSamples & consensusFreq$regionName%in%selRegions,],function(x){ 1 })
@@ -171,15 +171,16 @@ tmp$color <- plotColLookup$assayGroup[as.character(tmp[,"Assay type"])]
 tmp$color[tmp$variable=="Not contributing to corridor"] <- makeTransparent(tmp$color[tmp$variable=="Not contributing to corridor"],0.25) 
 
 # and visualize the summary as a barplot:
-message("Contribution to consensus bar plots (Figure S4.c)...")
+message("Contribution to consensus bar plots (Supplementary Figure 3.c)...")
 d <- ggplot(tmp, aes(x=`Assay type`,y=value,fill=color)) + geom_bar(width=0.5,colour="#333333",size=0.25,stat="identity") + geom_hline(yintercept=0) + ylim(0,1.2*max(tmp$height,na.rm=TRUE))+ xlab(NULL) + geom_text(aes(y=height,label=percent),angle=90,size=2,hjust=0) + ylab("Number of measurements") + scale_fill_identity() + defaultPlotTheme(flipX=TRUE,fontSize=8)  
 svgPlotGG(d, "contribution_to_consensus_summary", 4, 6)
 
 
-### FRESH-FROZEN VS FFPE ###
+
+### FRESH-FROZEN VS FFPE (Supplementary Figure 6) ###
 
 
-message("Fresh-frozen vs FFPE (Figures Sxxx)...")
+message("Fresh-frozen vs FFPE (Supplementary Figure 6)...")
 
 selSamples <- sampleNamesByType$FrozenFFPE
 selRegions <- regionNames
@@ -253,10 +254,10 @@ svgPlotGG(d,"performance_frozenffpe_bias_quant_v2", 18.3, 9, units="cm")
 
 
 
-### FULL SCATTER PLOT PANELS OF ABSOLUTE AND RELATIVE ASSAYS (Supplementary Fig. 2 and 8) ###
+### FULL SCATTER PLOT PANELS OF ABSOLUTE AND RELATIVE ASSAYS (Supplementary Figures 2 and 9) ###
 
 selSamples <- sampleNames
-message("Scatter plot panels (Supplementary Figures 2 and 8)...")
+message("Scatter plot panels (Supplementary Figures 2 and 9)...")
 
 scatterComparisons <- list("absVsAbs"=c("absolute","absolute"),"relVsAll"=c("relative","absoluteAndRelative"))
 for(scatterCmp in scatterComparisons) {
@@ -322,9 +323,9 @@ for(scatterCmp in scatterComparisons) {
 
 
 
-##### LINEAR MODELS FOR CAUSES OF DEVIATION (Supplementary Figure 4) #####
+##### LINEAR MODELS FOR CAUSES OF DEVIATION (Supplementary Figure 5) #####
 
-message("Causes of deviation (Supplementary Figure 4)...")
+message("Causes of deviation (Supplementary Figure 5)...")
 
 message("\t* build models")
 
@@ -448,9 +449,9 @@ for(curVar in selColsNumeric) {
 
 
 
-##### LINEAR MODELS FOR INFLUENCE OF DNA AMOUNT ON DEVIATION (Supplementary Figure 9) #####
+##### LINEAR MODELS FOR INFLUENCE OF DNA AMOUNT ON DEVIATION (Supplementary Figure 10) #####
 
-message("Influence of DNA amount on deviations (Supplementary Figure 9)...")
+message("Influence of DNA amount on deviations (Supplementary Figure 10)...")
 
 message("\t* build models")
 
@@ -666,7 +667,7 @@ lmResults$dataset <- factor(datasetTable[as.character(lmResults$dataset),"pretty
 
 message("\t* make plots")
 
-ggData <- lmResults[!is.na(lmResults$p),] #corResults[!is.na(corResults$p),] #
+ggData <- lmResults[!is.na(lmResults$p),]
 
 # the plot contains a few very extreme p-values, which need to be cropped so that the other p-values can be
 # better visualized. We therefore trim mLog10P values above or below the 95% quantile (these values will be 

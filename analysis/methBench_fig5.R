@@ -122,7 +122,7 @@ aucsNoise <- aggregate(AUC~dataset,data=aucData,mean,na.rm=T)
 aucsNoise <- aucsNoise[order(aucsNoise$AUC),]
 
 
-### SUPPLEMENTARY PANEL OF ROC CURVES (Supplementary Figure 13) ###
+### SUPPLEMENTARY PANEL OF ROC CURVES (Supplementary Figure 14) ###
 
 svgPlot("roc_small_all", 2*3,2.2*7, pointsize=18)
 par(mfrow=c(7,3))
