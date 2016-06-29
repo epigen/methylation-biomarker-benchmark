@@ -24,6 +24,8 @@ There are only two directories:
 
 ## Links:
 
++ Full article: [Nature Biotechnology](http://www.nature.com/nbt/journal/vaop/ncurrent/full/nbt.3605.html)
++ PubMed abstract: [27347756](http://www.ncbi.nlm.nih.gov/pubmed/27347756)
 + Illumina 450k data deposited at the Gene Expression Omnibus (GEO): [GSE77965](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77965)
 + BLUEPRINT consortium homepage: [Blueprint Epigenome](http://www.blueprint-epigenome.eu/)
 
